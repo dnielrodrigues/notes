@@ -1,9 +1,20 @@
 # Console Commands
 
-Create database: `use [db_name]`
+Create or select database: `use db_name`
 
 Show databases: `show dbs`
 
-Insert Sample: `dbname.product.insert({'name':'Fixed Bike'});`
+Insert Sample: `db_name.product.insert({'name':'Fixed Bike'});`
+
+Show Collections (tables): `show collections`
+
+Delete database:
+> Select the target db and run: `db.dropDatabase()`
+
+Delete Collection (tables): `db.product.drop()`
+
+# Remember
+
+* O mongo trabalha com conceito de "create when insert". Exemplo: ele cria um banco quando inserimos algo em um banco que no existe. Logo não existe um comando "create" em muitos casos. Apenas o "insert" ja resolve.
 
 ...
