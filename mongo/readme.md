@@ -1,9 +1,6 @@
 # Console Commands
 
-Create database:
-```
-use [db_name]
-```
+Create database: `use [db_name]`
 
 Show databases: `show dbs`
 
