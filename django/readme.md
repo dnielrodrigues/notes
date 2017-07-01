@@ -1,13 +1,13 @@
 # Comandos Básicos
 
 - Install Django
-```pip install```
+```pip install django```
 
 - Iniciar projeto
-```django-admin startproject app_name```
+```django-admin startproject project_name```
 
 - Criar app (modulo do django)
-```python manage.py app_name module_name```
+```python manage.py startapp project_name module_name```
 
 - Adicionar o app (modulo) criado no settings.py
 ```
