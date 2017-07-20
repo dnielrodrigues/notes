@@ -18,8 +18,8 @@ verser.listen(3000,"localhost");
 console.log("rodando...");
 ```
 
-Express Básico
---------------
+Início Básico
+-------------
 
 ```
 mkdir my_app
@@ -27,27 +27,6 @@ cd myapp
 npm init
 npm install express --save
 npm install ejs --save
-```
-### App.js
-```
-var express = require('express');
-var app = express();
-
-// config ...
-app.set('view engine','ejs');
-
-// exemplo de rota ...
-app.get('/produtos', function(req,res){ res.send("<h1>Página Teste</h1>") });
-
-// exemplo de rota com ejs ...
-app.get('/produtos',function(req,res){
-
-    // arquivo [lista.ejs] na pasta [views/produtos] ...
-    res.render("produtos/lista");
-});
-
-// subir servidor ...
-app.listen(3000, function(){ console.log("rodando"); });
 ```
 
 Ferramentas Úteis
