@@ -1,12 +1,19 @@
+// dependencias ...
 var express = require('express');
 var app = express();
 
-app.set('view engine', 'ejs');
+// config ...
+app.set('view engine','ejs');
 
-app.get('/produtos', function(req, res) {
+// exemplo de rota ...
+app.get('/produtos', function(req,res){ res.send("<h1>Página Teste</h1>") });
+
+// exemplo de rota com ejs ...
+app.get('/produtos',function(req,res){
+
+    // arquivo [lista.ejs] na pasta [views/produtos] ...
     res.render("produtos/lista");
 });
 
-app.listen(3000, function() {
-    console.log("servidor rodando");
-})
+// subir servidor ...
+app.listen(3000, function(){ console.log("rodando"); });
