@@ -50,4 +50,20 @@ app.get('/produtos',function(req,res){
 app.listen(3000, function(){ console.log("rodando"); });
 ```
 
+Ferramentas Úteis
+-----------------
+
+#### Express
+- Framework principal do node
+- https://www.npmjs.com/package/express
+
+#### NodeMon
+- Reiniciar o serviço host sempre que alterar os arquivos
+- (apenas instalar globalmente e rodar "nodemon" ao invez de "nodejs")
+- https://www.npmjs.com/package/nodemon
+
+
+
+
+
 
