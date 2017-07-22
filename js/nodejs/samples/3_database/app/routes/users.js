@@ -4,6 +4,10 @@
  */
 module.exports = function(app){
 
+    // driver pgSql ...
+    var pg = require('pg');
+    var conn = ..
+
     // listar ...
     app.get('/usuarios',function(req,res){ res.render("users/list"); });
 

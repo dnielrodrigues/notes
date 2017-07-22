@@ -41,8 +41,6 @@ Ferramentas Úteis
 - (apenas instalar globalmente e rodar "nodemon" ao invez de "nodejs")
 - https://www.npmjs.com/package/nodemon
 
-
-
-
-
-
+#### Driver pgSql
+- PostgreSQL database
+- https://www.npmjs.com/package/pg
