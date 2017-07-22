@@ -5,15 +5,18 @@ var app = express();
 // config ...
 app.set('view engine','ejs');
 
+// welcome ...
+app.get('', function(req,res){ res.send("<h1>Hello World...</h1>") });
+
 // exemplo de rota ...
 app.get('/produtos', function(req,res){ res.send("<h1>Página Teste</h1>") });
 
 // exemplo de rota com ejs ...
-app.get('/produtos',function(req,res){
+app.get('/usuarios',function(req,res){
 
     // arquivo [lista.ejs] na pasta [views/produtos] ...
     res.render("produtos/lista");
 });
 
 // subir servidor ...
-app.listen(3000, function(){ console.log("rodando"); });
+app.listen(3000, function(){ console.log("running"); });
