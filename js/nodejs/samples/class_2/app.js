@@ -1,0 +1,13 @@
+/**
+ * requisicao de modulo | formato CommonJS ...
+ * -------------------------------------------------------------------------
+ */
+
+// config ...
+var app = require('./config/express')();
+
+// rotas ...
+require('./app/routes/users');
+
+// subir servidor ...
+app.listen(3000, function(){ console.log("rodando"); });
