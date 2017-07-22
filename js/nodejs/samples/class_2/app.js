@@ -1,13 +1,20 @@
 /**
- * requisicao de modulo | formato CommonJS ...
- * -------------------------------------------------------------------------
+ * config ...
+ * -----------------------------------------------------------------------------
+ *
+ * @OBS : modulos do node usando o formato "CommonJS" ...
+ *
  */
-
-// config ...
 var app = require('./config/express')();
 
-// rotas ...
-require('./app/routes/users');
+/**
+ * rotas ...
+ * -----------------------------------------------------------------------------
+ */
+var user_routes = require('./app/routes/users')(app);
 
-// subir servidor ...
+/**
+ * subir servidor ...
+ * -----------------------------------------------------------------------------
+ */
 app.listen(3000, function(){ console.log("rodando"); });

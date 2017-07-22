@@ -2,8 +2,9 @@
  * rotas de usuarios ...
  * -------------------------------------------------------------------------
  */
- app.get('/produtos',function(req,res){
+module.exports = function(app){
 
-     // arquivo [lista.ejs] na pasta [views/produtos] ...
-     res.render("produtos/lista");
- });
+    app.get('/produtos',function(req,res){
+        res.render("produtos/lista");
+    });
+}
