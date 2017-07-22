@@ -10,7 +10,7 @@
  */
 var app = require('express')();
 app.set('view engine', 'ejs');
-app.set('views','./app/views')
+app.set('views','./app/views');
 
 // retorno ...
 module.exports = function() {

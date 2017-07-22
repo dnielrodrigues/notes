@@ -4,7 +4,7 @@
  */
 module.exports = function(app){
 
-    app.get('/produtos',function(req,res){
-        res.render("produtos/lista");
+    app.get('/usuarios',function(req,res){
+        res.render("usuarios/list");
     });
 }
