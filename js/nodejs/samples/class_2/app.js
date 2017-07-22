@@ -17,4 +17,4 @@ var user_routes = require('./app/routes/users')(app);
  * subir servidor ...
  * -----------------------------------------------------------------------------
  */
-app.listen(3000, function(){ console.log("rodando"); });
+app.listen(3000, function(){ console.log('running'); });
