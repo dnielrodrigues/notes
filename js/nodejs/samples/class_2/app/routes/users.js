@@ -4,7 +4,6 @@
  */
 module.exports = function(app){
 
-    app.get('/usuarios',function(req,res){
-        res.render("users/list");
-    });
+    // listar ...
+    app.get('/usuarios',function(req,res){ res.render("users/list"); });
 }

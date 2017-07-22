@@ -2,7 +2,9 @@
  * config ...
  * -----------------------------------------------------------------------------
  *
- * @OBS : modulos do node usando o formato "CommonJS" ...
+ * @OBS : modulos do node usam o formato "CommonJS" ...
+ *
+ * @IMPORTANT : auto restart node : https://nodemon.io/
  *
  */
 var app = require('./config/express')();
