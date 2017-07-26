@@ -21,4 +21,11 @@ Delete Collection (tables): `db.product.drop()`
 
 # Queries
 
-* Filtrar na arvore: ```db.my_collection.find({"my_prop.my_sub_prop":"my_value"})```
+* Filtrar na arvore:
+```
+db.my_collection.find({
+    "my_prop":"my_value",
+    "my_prop.my_sub_prop":"my_value",
+    "my_parent_prop.my_parent_prop.my_prop":"my_value"
+})
+```
