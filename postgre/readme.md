@@ -26,7 +26,9 @@ Enter Homestead postgre: ```psql -h 192.168.33.10 -U postgres -W``` pass: secret
 
 Listar os bancos de dados: ```\l```
 
-Lstar tabelas do banco: ```\d```
+Listar tabelas do banco: ```\d```
+
+Ir para outro banco: ```\c```
 
 Get information about user logged and currently database: ```\conninfo```
 
