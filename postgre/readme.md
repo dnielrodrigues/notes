@@ -20,7 +20,15 @@ Create a OS user for a Role: ```sudo adduser user_name```
 
 Create a database (in the postgre unix user): ```createdb db_name```
 
+Enter Homestead postgre: ```psql -h 192.168.33.10 -U postgres -W``` pass: secret
+
 # Postgre Console Commands
+
+Listar os bancos de dados: ```\l```
+
+Listar tabelas do banco: ```\d```
+
+Ir para outro banco: ```\c```
 
 Get information about user logged and currently database: ```\conninfo```
 
