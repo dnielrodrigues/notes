@@ -1,6 +1,14 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
+# coding: utf-8
 from django.contrib import admin
 
-# Register your models here.
+# importando models ...
+from models import SampleUsers
+from models import Pages
+
+
+"""
+registrando modulos ...
+--------------------------------------------------------------------------------
+"""
+admin.site.register(SampleUsers)
+admin.site.register(Pages)
