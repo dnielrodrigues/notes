@@ -11,9 +11,11 @@
 
     <h1>Listagem de páginas</h1>
     <ul>
-        <li>ads asd fads f</li>
-        <li>kjhlk lkjh lkjh </li>
-        <li>oiuy oiu yoiuy </li>
+        {% for item in paginas %}
+            <li>{{item.title}}</li>
+        {% empty %}
+            <li>Nenhuma página cadastrada</li>
+        {% endfor %}
     </ul>
 
 

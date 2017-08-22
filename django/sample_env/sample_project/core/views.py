@@ -2,6 +2,7 @@
 from django.shortcuts import render
 from .models import Pages
 
+
 # listar paginas ...
 def list_pages(request):
     pages = Pages.objects.all()

@@ -40,7 +40,7 @@ class Pages(models.Model):
 
     # ??? ...
     def __str__(self):
-        return self.name
+        return self.title
 
     # forcando verbose automatico no django ...
     class Meta:
