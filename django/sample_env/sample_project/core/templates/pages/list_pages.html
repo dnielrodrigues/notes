@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo</title>
+    <link href="{% static 'css/app.css' %}"rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+    <h1>Listagem de páginas</h1>
+    <ul>
+        {% for item in paginas %}
+            <li>{{item.title}}</li>
+        {% empty %}
+            <li>Nenhuma página cadastrada</li>
+        {% endfor %}
+    </ul>
+
+
+</body>
+</html>
