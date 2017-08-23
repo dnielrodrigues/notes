@@ -22,3 +22,12 @@ INSTALLED_APPS=[
 
 - Criar primeiro usuário
 ```python manage.py createsuperuser```
+
+
+# Conectar ao PostgreSQL
+
+- https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04
+
+# Sincronizar com banco legado
+
+- https://docs.djangoproject.com/pt-br/1.11/howto/legacy-databases/
