@@ -54,3 +54,8 @@ On CentOS : /var/lib/pgsql/data/pg_hba.conf
 # Useful Queries
 
 Get all schemes in a database: ```select schema_name from information_schema.schemata order by schema_name;```
+
+# Links Úteis
+
+https://pt.wikibooks.org/wiki/PostgreSQL_Pr%C3%A1tico/Ferramentas/psql
+
