@@ -1,3 +1,8 @@
+# Polymer CLI
+
+Install to a powerfull gulpfile:
+```npm install -g generator-polymer-init-custom-build```
+
 # Polymer Starter Kit
 
 Install:  
