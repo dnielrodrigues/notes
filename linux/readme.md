@@ -19,3 +19,11 @@
 /root/  ______ do usuário root  
 /proc/ _______ diretório virtual controlado pelo kernel com configuração total do sistema  
 ```
+
+# CURL
+-i: detalhar o header  
+-d: enviar dados no request. Ex: ` ... `   
+-X: Declarar o método. Ex: `curl -X PUT http://localhost:3000`  
+-T: Upload de arquivo  
+-u: autenticação. Ex: `curl -u usuario:senha http://localhost:3000`  
+-o: salvar resultado me arquivo. Ex: `curl -o meu.txt http://localhost:3000`  
