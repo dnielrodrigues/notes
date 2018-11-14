@@ -20,7 +20,11 @@
 /proc/ _______ diretório virtual controlado pelo kernel com configuração total do sistema  
 ```
 
-# CURL
+# Geral
+```zip -r archive_name.zip folder_to_compress```  
+```unzip archive_name.zip```
+
+## CURL
 -i: detalhar o header  
 -d: enviar dados no request. Ex: ` ... `   
 -X: Declarar o método. Ex: `curl -X PUT http://localhost:3000`  
