@@ -20,9 +20,13 @@
 /proc/ _______ diretório virtual controlado pelo kernel com configuração total do sistema  
 ```
 
-# Geral
+# Geral/Úteis
+
 ```zip -r archive_name.zip folder_to_compress```  
-```unzip archive_name.zip```
+```unzip archive_name.zip```  
+
+Mover imagens de pastas e sub-pastas para um local único:  
+```find */ -type f -name *.jpg -exec mv {} /path/to/put \;```  
 
 ## CURL
 -i: detalhar o header  
