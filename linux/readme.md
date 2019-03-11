@@ -35,3 +35,10 @@ Mover imagens de pastas e sub-pastas para um local único:
 -T: Upload de arquivo  
 -u: autenticação. Ex: `curl -u usuario:senha http://localhost:3000`  
 -o: salvar resultado me arquivo. Ex: `curl -o meu.txt http://localhost:3000`  
+
+## Ubuntu Após Instalação
+```
+sudo apt install git zip vi
+sudo apt install snapd snapd-xdg-open
+snap install postman
+```
