@@ -40,6 +40,11 @@ Cut (CMD + X)
 Toggle integrated terminal (CMS + SHIFT + ')
 
 
+VueJS Enviroment
+----------------
+https://quasar.dev/start/vs-code-configuration
+
+
 ReactJS Enviroment
 ------------------
 1. Install Plugins:  
