@@ -1,3 +1,7 @@
+#### Mac Keys Reference
+CTRL = CMD  
+ALT = OPT
+
 General Enviroment
 ------------------
 
@@ -25,7 +29,15 @@ vscode-styled-components
 
 5. Copy all the file: https://gist.github.com/diego3g/b1b189063d21b96d6144ca896755be64  
 On VSCode:  
-CTRL + SHIFT + P / type "settings" / search "Preferences: Open Settings (JSON).  
+CMD + SHIFT + P / type "settings" / search "Preferences: Open Settings (JSON).  
+
+6. CMD + SHIFT + P / type "shortcuts" / choose "Preferences: Open keyboards shortcuts" / type on search input:
+Multiple selection (OPT + selection)
+Add Selection (CMD + D)
+Move linde Down (OPT + DownArrow)
+Copy line down (CMD + SHIFT + D)
+Cut (CMD + X)
+Toggle integrated terminal (CMS + SHIFT + ')
 
 
 ReactJS Enviroment
