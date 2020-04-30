@@ -42,7 +42,11 @@ Toggle integrated terminal (CMS + SHIFT + ')
 
 VueJS Enviroment
 ----------------
-https://quasar.dev/start/vs-code-configuration
+
+1. https://quasar.dev/start/vs-code-configuration  
+
+2. Extensions:  
+Vue.js Extension Pack
 
 
 ReactJS Enviroment
