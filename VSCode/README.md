@@ -1,3 +1,9 @@
+#### Enviroment Vars
+MAC (~/.bash_profile)
+```
+export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
+```
+
 #### Mac Keys Reference
 CTRL = CMD  
 ALT = OPT
