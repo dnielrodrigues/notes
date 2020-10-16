@@ -19,5 +19,5 @@ MYSQL_PASSWORD=$DBPASS mysqldump -h $DBHOST -u $DBUSER > dump.sql
 
 Restore: 
 ```
-MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER < dump.sql
+MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER $DBNAME < dump.sql
 ```
