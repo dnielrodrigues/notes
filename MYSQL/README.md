@@ -21,3 +21,7 @@ Restore:
 ```
 MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER $DBNAME < dump.sql
 ```
+
+### Gerais
+Create DB: ```CREATE DATABASE $DBNAME;```  
+Delete DB: ```DROP DATABASE [IF EXISTS] $DBNAME;```  
