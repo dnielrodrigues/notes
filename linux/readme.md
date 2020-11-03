@@ -28,6 +28,9 @@
 Mover imagens de pastas e sub-pastas para um local único:  
 ```find */ -type f -name *.jpg -exec mv {} /path/to/put \;```  
 
+Detalhes da memória RAM:  
+```sudo dmidecode --type 17```  
+
 ## CURL
 -i: detalhar o header  
 -d: enviar dados no request. Ex: ` ... `   
