@@ -31,6 +31,22 @@ Mover imagens de pastas e sub-pastas para um local único:
 Detalhes da memória RAM:  
 ```sudo dmidecode --type 17```  
 
+Criar Ícone para aplicativo:  
+Inserir no arquivo '~/.local/share/applications'
+```
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Android Studio
+Exec="/opt/android-studio/bin/studio.sh" %f
+Icon=/opt/android-studio/bin/studio.png
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=jetbrains-android-studio
+Name[en_GB]=android-studio.desktop
+```  
+
 ## CURL
 -i: detalhar o header  
 -d: enviar dados no request. Ex: ` ... `   
