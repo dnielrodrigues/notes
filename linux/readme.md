@@ -22,6 +22,7 @@
 
 # Geral/Úteis
 
+ZIP
 ```zip -r archive_name.zip folder_to_compress```  
 ```unzip archive_name.zip```  
 
@@ -32,7 +33,8 @@ Detalhes da memória RAM:
 ```sudo dmidecode --type 17```  
 
 Criar Ícone para aplicativo:  
-Inserir no arquivo '~/.local/share/applications'
+Inserir no arquivo `~/.local/share/applications/_titulo_.desktop` ou `/usr/share/applications/_titulo_.desktop` :
+
 ```
 [Desktop Entry]
 Version=1.0
@@ -54,6 +56,9 @@ Name[en_GB]=android-studio.desktop
 -T: Upload de arquivo  
 -u: autenticação. Ex: `curl -u usuario:senha http://localhost:3000`  
 -o: salvar resultado me arquivo. Ex: `curl -o meu.txt http://localhost:3000`  
+
+## MarkDown online editor
+[https://pandao.github.io/editor.md/](https://pandao.github.io/editor.md/ "https://pandao.github.io/editor.md/")
 
 ## Ubuntu Após Instalação
 ```
