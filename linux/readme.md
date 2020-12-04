@@ -22,15 +22,22 @@
 
 # Geral/Úteis
 
-ZIP
-```zip -r archive_name.zip folder_to_compress```  
-```unzip archive_name.zip```  
+ZIP & TAR
+`zip -r archive_name.zip _folder_to_compress_`  
+`unzip _archive_name_.zip`  
+`sudo tar -xzvf _file_.tar.gz -C /_path_/_to_/`  
 
 Mover imagens de pastas e sub-pastas para um local único:  
-```find */ -type f -name *.jpg -exec mv {} /path/to/put \;```  
+`find */ -type f -name *.jpg -exec mv {} /path/to/put \;`  
 
 Detalhes da memória RAM:  
-```sudo dmidecode --type 17```  
+`sudo dmidecode --type 17`  
+
+Criar link simbólico:  
+`sudo ln -s _from_/ _to_`  
+
+Adicionar usuário atual ao grupo:  
+`sudo adduser $USER _group_`  
 
 Criar Ícone para aplicativo:  
 Inserir no arquivo `~/.local/share/applications/_titulo_.desktop` ou `/usr/share/applications/_titulo_.desktop` :
