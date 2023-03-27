@@ -6,13 +6,17 @@
     "command": "editor.action.duplicateSelection",
     "when": "editorTextFocus && !editorReadonly"
   },
+
+  // join lines
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.joinLines"
+  },
+
+  // ???
   {
     "key": "ctrl+shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+j",
-    "command": "editor.action.joinLines"
   }
 ]
