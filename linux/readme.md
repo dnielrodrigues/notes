@@ -22,6 +22,10 @@
 
 # Geral/Úteis
 
+Processo em segundo plano:
+`bash /caminho/do/script.sh > /caminho/do/log.txt 2>&1`  
+`bash /caminho/do/script.sh > /dev/null 2>&1`  
+
 ZIP & TAR
 `zip -r archive_name.zip _folder_to_compress_`  
 `unzip _archive_name_.zip`  
