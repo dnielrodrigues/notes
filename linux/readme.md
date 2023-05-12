@@ -22,9 +22,9 @@
 
 # Geral/Úteis
 
-Processo em segundo plano:
-`bash /caminho/do/script.sh > /caminho/do/log.txt 2>&1`  
-`bash /caminho/do/script.sh > /dev/null 2>&1`  
+Processo em segundo plano:  
+`bash /caminho/do/script.sh > /caminho/do/log.txt 2>&1` ou  
+`bash /caminho/do/script.sh > /dev/null 2>&1` para não gerar log  
 
 ZIP & TAR
 `zip -r archive_name.zip _folder_to_compress_`  
