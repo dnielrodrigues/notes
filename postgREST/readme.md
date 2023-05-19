@@ -1,5 +1,8 @@
 # Get Started
 
+First access (after that create your user yourself):  
+`sudo -u postgres psql`
+
 ## Install on CentOS
 
 # Reference Links
