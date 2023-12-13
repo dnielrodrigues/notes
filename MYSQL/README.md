@@ -28,3 +28,8 @@ Create DB: ```CREATE DATABASE $DBNAME;```
 Delete DB: ```DROP DATABASE [IF EXISTS] $DBNAME;```  
 Test service: ```systemctl is-active mysql```  
 Stop service: ```sudo systemctl stop mysql```  
+
+### MySQL command line
+List databases: `SHOW DATABASES;`  
+New database: `CREATE DATABASE;`  
+Quit command linte: `EXIT;`  
