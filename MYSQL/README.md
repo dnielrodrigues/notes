@@ -27,5 +27,6 @@ MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER $DBNAME < dump.sql
 List databases: `SHOW DATABASES;`  
 Create DB: `CREATE DATABASE $DBNAME;`  
 Delete DB: `DROP DATABASE [IF EXISTS] $DBNAME;`  
+Select DB: `USE <DBNAME>;`  
 Test service: `systemctl is-active mysql`  
 Stop service: `sudo systemctl stop mysql`  
