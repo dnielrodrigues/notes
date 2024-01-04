@@ -15,6 +15,10 @@ Debug config files:
 Restart Nginx:  
 `/etc/init.d/nginx restart`
 
+For AWS Linux 2:  
+`amazon-linux-extras list | grep nginx`  
+`sudo amazon-linux-extras install <app_name>`
+
 ## Logs
 
 Require Log:  
