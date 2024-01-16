@@ -2,6 +2,8 @@
 
 The more used open source database for web applications.
 
+First access: `sudo -u postgres psql`
+
 ### On MacOS (testando):
 ``` bash
 brew update
