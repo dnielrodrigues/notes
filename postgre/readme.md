@@ -2,7 +2,8 @@
 
 The more used open source database for web applications.
 
-First access: `sudo -u postgres psql`
+First access: `sudo -u postgres psql`  
+On Mac: `psql -U postgres`
 
 ### On MacOS (testando):
 ``` bash
