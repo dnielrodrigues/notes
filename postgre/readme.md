@@ -21,3 +21,7 @@ brew uninstall --force postgresql@14
 rm -rf $(brew --prefix)/var/postgresql@14
 ```
 
+### Links
+
+* https://www.dataquest.io/blog/install-postgresql-14-7-for-macos/  
+* https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/  
