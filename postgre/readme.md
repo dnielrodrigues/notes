@@ -21,6 +21,17 @@ brew uninstall --force postgresql@14
 rm -rf $(brew --prefix)/var/postgresql@14
 ```
 
+### Table management
+
+Rename a column: 
+`ALTER TABLE table_table RENAME COLUMN old_name TO new_name;`  
+Add a column: 
+`ALTER TABLE table_name ADD COLUMN IF NOT EXISTS column_name INT;`  
+Delete a column: `...`  
+Add a constraint: `...`  
+Delete a constraint: `...`  
+Alter a constraint: `...`  
+
 ### Links
 
 * https://www.dataquest.io/blog/install-postgresql-14-7-for-macos/  
