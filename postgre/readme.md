@@ -34,5 +34,6 @@ Alter a constraint: `...`
 
 ### Links
 
-* https://www.dataquest.io/blog/install-postgresql-14-7-for-macos/  
-* https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/  
+* https://www.dataquest.io/blog/install-postgresql-14-7-for-macos/
+* https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
+* https://stackoverflow.com/questions/15692508/a-faster-way-to-copy-a-postgresql-database-or-the-best-way
