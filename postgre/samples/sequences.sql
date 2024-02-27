@@ -15,3 +15,4 @@ SELECT MAX(__column_name__) FROM __table_name__;
 
 -- set sequence value
 ALTER SEQUENCE __sequence_name__ RESTART WITH 666;
+SELECT setval('__sequence_name__', 666, true);
