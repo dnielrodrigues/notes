@@ -43,6 +43,9 @@ Criar link simbólico:
 Adicionar usuário atual ao grupo:  
 `sudo adduser $USER _group_`  
 
+Listar serviços:
+`systemctl list-units --type=service --all`  
+
 Criar Ícone para aplicativo:  
 Inserir no arquivo `~/.local/share/applications/_titulo_.desktop` ou `/usr/share/applications/_titulo_.desktop` :
 
