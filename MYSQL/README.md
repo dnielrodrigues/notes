@@ -5,25 +5,24 @@ DBPORT=3306
 DBUSER=homestead
 DBNAME=sample
 DBPASS=secret
+FILE=dump.sql
 ```
 
-Terminal: 
-```
-MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER
-MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER --port=33060
-```
+### Terminal:  
+`MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER`  
+`MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER --password=$DBPASS --port=$DBPORT`  
 
-Dump: 
+### Dump:  
+`MYSQL_PASSWORD=$DBPASS mysqldump -h $DBHOST -u $DBUSER > $FILE`  
 ```
-MYSQL_PASSWORD=$DBPASS mysqldump -h $DBHOST -u $DBUSER > dump.sql
-```
+MYSQL_PASSWORD=$DBPASS mysqldump -h $DBHOST -u $DBUSER --password=$DBPASS --port=$DBPORT --single-transaction --skip-lock-tables --column-statistics=0 --routines --add-drop-table --disable-keys --extended-insert $DBNAME > $FILE
+```  
 
-Restore: 
-```
-MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER $DBNAME < dump.sql
-```
+### Restore:  
+`MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER $DBNAME < $FILE`  
+`MYSQL_PASSWORD=$DBPASS mysql -h $DBHOST -u $DBUSER --password=$DBPASS --port=$DBPORT $DBNAME < $FILE`  
 
-Rename DB: 
+### Rename DB: 
 ```
 DB_OLD=old_database
 DB_NEW=new_database
