@@ -14,4 +14,4 @@ brew install --cask iterm2
 ```
 Oh my zsh: https://ohmyz.sh/#install  
 PowerLevel10k: https://github.com/romkatv/powerlevel10k  
-
+ZSH Tools: https://www.josean.com/posts/terminal-setup  
