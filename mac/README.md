@@ -4,6 +4,7 @@
 Homebrew: https://brew.sh/  
 VsCode: https://code.visualstudio.com/  
 Sublime text: https://www.sublimetext.com/  
+NodeJS (NVM): https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
 
 ## Brew installers
 ```
