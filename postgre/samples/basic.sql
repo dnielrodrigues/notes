@@ -1,3 +1,9 @@
+-- CHECK POSTGRE VERSION
+SELECT version();
+
+-- SHOW TABLE DETAILS (FIELDS, CONSTRAITS, ETC)
+\d __table_name__;
+
 -- SELECT
 SELECT * FROM scheme_name.table_name WHERE sample_name ILIKE '%joao%';
 
