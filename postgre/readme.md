@@ -3,7 +3,8 @@
 The more used open source database for web applications.
 
 First access: `sudo -u postgres psql`  
-On Mac: `psql -U postgres`
+On Mac: `psql -U postgres`  
+Check postgre version: `=> SELECT version();`
 
 ### On MacOS (testando):
 ``` bash
