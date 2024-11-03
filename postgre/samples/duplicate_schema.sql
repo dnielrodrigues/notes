@@ -1,0 +1,16 @@
+-- REMEMBER: FIRST CREATE SCHEMA
+DO $$ 
+DECLARE
+    tbl RECORD;
+    old_schema varchar = 'cliente';
+    new_schema varchar = 'ce_pm_tiangua';
+BEGIN
+    FOR tbl IN
+        SELECT tablename
+        FROM pg_tables
+        WHERE schemaname = old_schema
+    LOOP
+        EXECUTE FORMAT('CREATE TABLE '|| new_schema ||'.%I (LIKE '|| old_schema ||'.%I INCLUDING ALL)', tbl.tablename, tbl.tablename);
+        EXECUTE FORMAT('INSERT INTO '|| new_schema ||'.%I SELECT * FROM '|| old_schema ||'.%I', tbl.tablename, tbl.tablename);
+    END LOOP;
+END $$;
