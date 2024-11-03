@@ -2,8 +2,8 @@
 DO $$ 
 DECLARE
     tbl RECORD;
-    old_schema varchar = 'cliente';
-    new_schema varchar = 'ce_pm_tiangua';
+    old_schema varchar = '_old_schema_name_';
+    new_schema varchar = '_new_schema_name_';
 BEGIN
     FOR tbl IN
         SELECT tablename
