@@ -38,7 +38,11 @@ Detalhes da memória RAM:
 `sudo dmidecode --type 17`  
 
 Criar link simbólico:  
-`sudo ln -s _from_/ _to_`  
+```
+FROM="/path/to/file.txt"
+TO="/path/to/alias.txt"
+sudo ln -s $FROM $TO
+```
 
 Adicionar usuário atual ao grupo:  
 `sudo adduser $USER _group_`  
