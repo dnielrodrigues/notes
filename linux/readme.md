@@ -22,6 +22,9 @@
 
 # Geral/Úteis
 
+Versão do Ubuntu:  
+`lsb_release -a`  
+
 Processo em segundo plano:  
 `bash /caminho/do/script.sh > /caminho/do/log.txt 2>&1` ou  
 `bash /caminho/do/script.sh > /dev/null 2>&1` para não gerar log  
