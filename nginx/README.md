@@ -7,7 +7,12 @@ Config File:
 `/etc/nginx/nginx.conf`
 
 Server Block create alias sample:  
-`sudo ln -s /etc/nginx/sites-available/config_file_name /etc/nginx/sites-enabled/`
+`sudo ln -s /etc/nginx/sites-available/config_file_name /etc/nginx/sites-enabled/`  
+ou  
+```FROM="/path/to/file.txt"
+TO="/path/to/alias.txt"
+sudo ln -s $FROM $TO
+```  
 
 Debug config files:  
 `sudo nginx -t`
