@@ -3,7 +3,17 @@
 
 ### Find php.ini file
 `php --ini`  
-PS: Look for "Loaded Configuration File"
+PS: Look for "Loaded Configuration File"  
+OR: Put a `<?php phpinfo(); die; ?>` on the index.php.  
+
+### php.ini Utils
+Example location: /etc/php/7.4/fpm/php.ini
+```
+upload_max_filesize = 256M
+post_max_size = 256M
+memory_limit = 512M
+max_execution_time = 1024
+```
 
 ### Install 7.4 version
 ```
