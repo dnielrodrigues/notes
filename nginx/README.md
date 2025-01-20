@@ -33,6 +33,11 @@ Require Log:
 Error Log:  
 `/var/log/nginx/error.log`
 
+## nginx.conf utils
+`/etc/nginx/nginx.conf`
+
+Max upload file: `client_max_body_size 128M;`
+
 # Links
 Virtual hosts: https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-centos-6  
 Change default error page: https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-to-use-custom-error-pages-on-ubuntu-22-04
