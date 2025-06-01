@@ -18,3 +18,8 @@ brew install --cask docker
 ZSH Tools: https://www.josean.com/posts/terminal-setup  
 Oh my zsh: https://ohmyz.sh/#install  
 PowerLevel10k: https://github.com/romkatv/powerlevel10k  
+
+## See a wifi password
+1. Search for "keys" (chaves) on apps.
+2. Search for the network name on the field in the top right corner.
+3. Double click on the network and mark "show password" in the bottom.
