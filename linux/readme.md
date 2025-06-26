@@ -70,6 +70,13 @@ StartupWMClass=jetbrains-android-studio
 Name[en_GB]=android-studio.desktop
 ```  
 
+Forçar qualquer senha no ubuntu:  
+```
+# um destes:
+echo "senha123" | sudo passwd --stdin nome_do_usuario
+echo "nome_do_usuario:senha123" | sudo chpasswd
+```
+
 ## CURL
 -i: detalhar o header  
 -d: enviar dados no request. Ex: ` ... `   
