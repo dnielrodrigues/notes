@@ -41,7 +41,7 @@ Detalhes da memória RAM:
 `sudo dmidecode --type 17`  
 
 Criar link simbólico:  
-```
+```bash
 FROM="/path/to/file.txt"
 TO="/path/to/alias.txt"
 sudo ln -s $FROM $TO
@@ -71,7 +71,7 @@ Name[en_GB]=android-studio.desktop
 ```  
 
 Forçar qualquer senha no ubuntu:  
-```
+```bash
 # um destes:
 echo "senha123" | sudo passwd --stdin nome_do_usuario
 echo "nome_do_usuario:senha123" | sudo chpasswd
@@ -89,8 +89,14 @@ echo "nome_do_usuario:senha123" | sudo chpasswd
 [https://pandao.github.io/editor.md/](https://pandao.github.io/editor.md/ "https://pandao.github.io/editor.md/")
 
 ## Ubuntu Após Instalação
-```
+```bash
 sudo apt install git zip vi
 sudo apt install snapd snapd-xdg-open
 snap install postman
+```
+
+## Ubuntu uso de portas
+```bash
+sudo lsof -i :15432 # identificar o processo que esta usando a porta
+sudo kill -9 <PID> # matar o processo identificado pelo PID
 ```
