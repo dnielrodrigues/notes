@@ -36,7 +36,8 @@ Error Log:
 ## nginx.conf utils
 `/etc/nginx/nginx.conf`
 
-Max upload file: `client_max_body_size 128M;`
+Max upload file: `client_max_body_size 128M;`  
+Show nginx user: `ps aux | grep nginx`  
 
 # Links
 Virtual hosts: https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-virtual-hosts-server-blocks-on-centos-6  
