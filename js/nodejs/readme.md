@@ -5,6 +5,7 @@ https://github.com/nvm-sh/nvm#install--update-script
 Look the last LTS version: `nvm ls-remote`  
 Install the version like: `nvm install v14.15.1`  
 Test: `npm -version`  
+Set default version: `nvm alias default <version>`  
 
 
 Exemplo Mais Simples Possível
