@@ -18,6 +18,9 @@ sudo ln -s $FROM $TO
 Debug config files:  
 `sudo nginx -t`
 
+Debug realtime log:  
+`tail -f`
+
 Restart Nginx:  
 `/etc/init.d/nginx restart`
 
