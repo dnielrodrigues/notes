@@ -26,12 +26,16 @@ rm -rf $(brew --prefix)/var/postgresql@14
 
 Rename a column: 
 `ALTER TABLE table_table RENAME COLUMN old_name TO new_name;`  
-Add a column: 
+Add a column:  
 `ALTER TABLE table_name ADD COLUMN IF NOT EXISTS column_name INT;`  
 Delete a column: `...`  
 Add a constraint: `...`  
 Delete a constraint: `...`  
 Alter a constraint: `...`  
+Rename database:  
+`ALTER DATABASE old_name RENAME TO new_name;`  
+Rename schema:  
+`ALTER SCHEMA old_name RENAME TO new_name;`  
 
 ### Links
 
